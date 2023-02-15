@@ -460,7 +460,10 @@ with tab1:
                         wrong_startlocatie+=1
                         
                 
-                        
+                No_mutiple_actions_simultaneously = 0
+                penalty_below_safety_margin = 0
+                wrong_startlocation = 0
+                
                 total_penalty_score=penalty_dienst+penalty_below_safety_margin+penalty_opladen+penalty_idle+penalty_tijd+penalty_mat+No_mutiple_actions_simultaneously+wrong_startlocation
           
                 #%%
