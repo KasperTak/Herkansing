@@ -476,9 +476,9 @@ with tab1:
                                                         ['Material trip',[penalty_mat] ],
                                                         ['Exceed time',[penalty_tijd] ],
                                                         ['Not according to service trip',[penalty_dienst] ],
-                                                        ['Charging too short',[penalty_opladen] ]
-                                                        ['Below safety margin',[penalty_below_safety_margin]]
-                                                        ['Multiple actions',[No_mutiple_actions_simultaneously]]
+                                                        ['Charging too short',[penalty_opladen] ],
+                                                        ['Below safety margin',[penalty_below_safety_margin]],
+                                                        ['Multiple actions',[No_mutiple_actions_simultaneously]],
                                                         ['Wrong startlocation',[wrong_startlocation]]
                                                         ],
                                                    dtype=object ),
