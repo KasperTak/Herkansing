@@ -108,7 +108,7 @@ with tab1:
     if circulation_file:
         if connexxion_file:
             with st.spinner("Please wait..."):
-                data_planning = pd.read_excel('PythonPlanning.xlsx')
+                data_planning = pd.read_excel(circulation_file)
                 startlocatie = data_planning.startlocatie
                 eindlocatie = data_planning.eindlocatie
                 starttijd = data_planning.starttijd
