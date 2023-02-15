@@ -457,7 +457,7 @@ with tab1:
                     if eindlocatie != startlocatie:
                         print(f'rij {i+2}:')
                         print(eindlocatie, startlocatie)
-                        wrong_startlocatie+=1
+                        wrong_startlocation+=1
                         
                 
                 No_mutiple_actions_simultaneously = 0
